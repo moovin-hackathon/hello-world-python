@@ -1,9 +1,11 @@
 language: python
 python:
-  - "2.7"
+- '2.7'
 install:
-  - pip install -r requirements.txt
+- pip install -r requirements.txt
 deploy:
   provider: heroku
   app:
     master: moovin-hackathon-hw-python
+  api_key:
+    secure: mZALsyqaEBSDF08clnAJrVpLM9dGjXKN4vvLzlrYDWUTT5BF9HyDH8GnYoncks6z3p4sNJ1dQtNawZlmmqrpYP8LrFKCJHgeTcdcbiK6uV2bMHh+yz03yqU8/Rb87njA7cHKOota7of20Uc6Wx1QGT2lcot4RBFAHBFyGfc1pUPPzsNhXr3iNRDZ+9jwpJtGefeyWQ24zy/8iMYt6r6sEbmLKLSgs669LBxpvVULmG8wqaSMZro2hgCogVW1Bnkpj+/dfQuHaGJ6Ag7rnWxFirCwy4/IGoc37KDsCI1w6FITHQGAyk/LstPnC95cou5QbaaUI023in8YGX+f7k2gYshzGV1McVefy3L60iLfXr7/BmAhSP69ucngoyxkOaI0wQoHETTSb7X+duRBUQK9QOsKFtTajYpunORNduCWtKApbzghn17o34spNcaJCH050TrK3uPOJgUcUjTL8LzXV2zrkZiY9353YP1oQRLFODCdiPtWatdjR0YlUVy9ZEoWjoZTjZdZBi17ikFKvBzOZy8f9xSRpM66lk9LMwe0fSIOhMVmlZ5cVQi3RJWOhFU0R5LJy+XlQSvEDmMtewCG+jMn0cdkb23ElZOQUaPD1GXb9Y5YWhnnC2rkVpWiOby+MYemHb+4t72yMZwBa2fqvzYCKdpPI8YZ8A7uJKqCaFE=
